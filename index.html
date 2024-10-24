@@ -72,9 +72,11 @@
     <script>
         // Ensure styles are loaded
         window.addEventListener('load', function() {
-            if (!document.querySelector('link[href="/styles.css"]')) {
+            if (!document.querySelector('link[href="/style.css"]')) {
                 console.warn('External stylesheet not loaded. Using fallback styles.');
             }
+        });
+
         const categories = [
             "DATA CACHE READS",
             "DATA CACHE WRITES",
