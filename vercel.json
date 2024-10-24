@@ -1,11 +1,11 @@
 {
   "routes": [
-    { "src": "/styles.css", "dest": "/styles.css" },
+    { "src": "/style.css", "dest": "/style.css" },
     { "src": "/(.*)", "dest": "/index.html" }
   ],
   "headers": [
     {
-      "source": "/styles.css",
+      "source": "/style.css",
       "headers": [
         {
           "key": "Cache-Control",
